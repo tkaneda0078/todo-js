@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>TODO(JS)</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div class="input-area">
+      <input placeholder="todo" />
+      <button>add</button>
+    </div>
 
-<body>
-	<div id="app"></div>
+    <div class="unfinished-area">
+      <p>unfinished</p>
+      <ul>
+        <li>todo1</li>
+        <button>finished</button>
+        <button>delete</button>
+      </ul>
+    </div>
 
-	<script src="src/index.js">
-	</script>
-</body>
+    <div class="finished-area">
+      <p>finished</p>
+      <ul>
+        <li>todo2</li>
+        <button>finished</button>
+        <button>delete</button>
+      </ul>
+    </div>
 
+    <script src="src/index.js"></script>
+  </body>
 </html>
